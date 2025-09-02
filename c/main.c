@@ -1,12 +1,15 @@
 #include <stdio.h>
+# include <math.h>
+int main(){
 
-int main (){
-    printf("1.          *\n");
-    printf("2.         *\n");
-    printf("3.        *\n");
-    printf("4. *     *\n");
-    printf("5.  *   *\n");
-    printf("6.    *");
+    float r = 10;
+    const double p = 3.1415926535897;
+    float volume;
+    
 
-return 0;
+
+    volume = (4.0f/3.0f)*p*pow(r,3);
+     printf("la valeur du volume et : %f",volume);
+    
+
 }
