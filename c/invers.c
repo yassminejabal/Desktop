@@ -1,5 +1,6 @@
 #include <stdio.h>
-int main (){
+int main ()
+{
     int a,b,n;
     printf("entre la valeur de n : ");
     scanf("%d",&n);
