@@ -9,7 +9,7 @@ void MoyenneGenerale() {
         printf("Aucune note saisie.\n");
         return;
     }
-
+  
     float somme = 0;
     float max = notes[0];
     float min = notes[0];
@@ -28,6 +28,8 @@ void MoyenneGenerale() {
     printf(" Note Min : %.2f\n", min);
 }
 
+    count admis=0;
+    
 void sisirlesnote() {
     int nombre_note;
     float note;
@@ -44,7 +46,7 @@ void sisirlesnote() {
 
     for (int i = 0; i < nombre_note; i++) { 
         printf("Entrer la note %d : ", i + 1);
-        scanf("%f", &note);
+        scanf("%f", &notes[i]);
 
         if (note < 0 || note > 20) {
             printf("erreur: note invalide.\n");
